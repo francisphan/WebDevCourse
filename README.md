@@ -37,7 +37,13 @@ echo "Go back to $(echo $REPO | sed 's/.git$//g') to make sure that you did it r
 - The provided `README` will tell you how to create a local webserver.
 
 ## Assignment 1
-- Create a button that when _clicked_ displays
+- Create a button that when _clicked_ toggles a display
+  - **Acceptance Criteria**:
+    - If not displayed -> clicking button should display it
+    - If it is displayed -> clicking button will hide it
+    - Button is in the middle of the page
+
+
 ```
 Hello World!
 ```
